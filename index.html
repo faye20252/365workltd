@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M&E Training UK</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+      color: #1c1c1c;
+    }
+    header {
+      background-color: #004080;
+      color: #fff;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header img {
+      width: 100px;
+      margin-bottom: 20px;
+    }
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      margin-top: 20px;
+    }
+    h1, h2 {
+      color: #004080;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: #0073e6;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #005bb5;
+    }
+    footer {
+      background: #004080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+    .social-links a {
+      display: inline-block;
+      margin-right: 15px;
+      color: #004080;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Untitled design.png" alt="M&E Training Logo" />
+    <h1>M&E Training</h1>
+    <p>Skills for Success</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>M&E Training is a UK-based training provider offering a wide range of accredited courses to help individuals upskill and succeed. We specialize in compliance, safety, and workplace readiness courses for individuals and businesses alike.</p>
+  </section>
+
+  <section>
+    <h2>Courses We Offer</h2>
+    <ul>
+      <li>First Aid (various types)</li>
+      <li>SIA Accredited Security Training (CCTV, Door Supervisor)</li>
+      <li>CSCS Card Preparation</li>
+      <li>Functional Skills (Maths & English Level 1 & 2)</li>
+      <li>Traffic Marshal</li>
+      <li>Fire Marshal</li>
+      <li>Personal Alcohol License</li>
+      <li>Food Hygiene</li>
+      <li>Health & Safety</li>
+      <li>Manual Handling</li>
+      <li>And many more!</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Book a Course</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="course">Select Course:</label>
+        <select id="course" name="course">
+          <option>First Aid</option>
+          <option>SIA CCTV</option>
+          <option>SIA Door Supervisor</option>
+          <option>CSCS</option>
+          <option>Functional Skills</option>
+          <option>Fire Marshal</option>
+          <option>Traffic Marshal</option>
+          <option>Food Hygiene</option>
+          <option>Manual Handling</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="date">Preferred Course Date:</label>
+        <input type="date" id="date" name="date" required />
+      </div>
+      <input type="submit" value="Register" />
+    </form>
+  </section>
+
+  <section>
+    <h2>Upload Documents</h2>
+    <p>Submit your ID and proof of address for registration:</p>
+    <form enctype="multipart/form-data">
+      <div class="form-group">
+        <label for="idUpload">Upload ID:</label>
+        <input type="file" id="idUpload" name="idUpload" accept="image/*,application/pdf" />
+      </div>
+      <div class="form-group">
+        <label for="addressUpload">Upload Proof of Address:</label>
+        <input type="file" id="addressUpload" name="addressUpload" accept="image/*,application/pdf" />
+      </div>
+      <input type="submit" value="Upload" />
+    </form>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:info@metraining.co.uk">info@metraining.co.uk</a></p>
+    <p>Phone/WhatsApp: <a href="https://wa.me/447538180733">07538 180733</a></p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 M&E Training. All rights reserved.
+  </footer>
+</body>
+</html>
